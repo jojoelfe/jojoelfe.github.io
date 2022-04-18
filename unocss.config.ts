@@ -16,7 +16,9 @@ export default defineConfig({
   ],
   presets: [
     presetUno(),
-    presetAttributify(),
+    presetAttributify({
+      ignoreAttributes: ['scale'],
+    }),
     presetIcons({
       scale: 1.2,
       warn: true,

@@ -18,6 +18,8 @@ Based on <a href="https://github.com/antfu/vitesse">Vitesse</a>.
 
 - ☁️ Deploy on Netlify or Github pages?
 
+- Use a  [input-knob](https://github.com/GoogleChromeLabs/input-knob) to control a defocus filter on the website. Maybe make it astigmatic too, using a custom kernel.
+
 <br>
 
 

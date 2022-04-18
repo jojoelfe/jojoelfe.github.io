@@ -27,6 +27,12 @@ export default defineConfig({
     Vue({
       include: [/\.vue$/, /\.md$/],
       reactivityTransform: true,
+      template: {
+        compilerOptions: {
+          // treat all tags with a dash as custom elements
+          isCustomElement: tag => tag.includes('-'),
+        },
+      },
     }),
 
     // https://github.com/hannoeru/vite-plugin-pages
