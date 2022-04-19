@@ -12,7 +12,7 @@ const blur = computed(() => {
 <template>
   <main class="px-4 py-10  text-gray-700 dark:text-gray-200">
     <Header />
-    <div class="blur m-auto max-w-lg w-100%">
+    <div class="blur m-auto max-w-xl w-100%">
       <RouterView />
     </div>
     <Controls />

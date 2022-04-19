@@ -8,6 +8,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+import extractorPug from '@unocss/extractor-pug'
 
 export default defineConfig({
   shortcuts: [
@@ -35,6 +36,9 @@ export default defineConfig({
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),
+  ],
+  extractors: [
+    extractorPug(),
   ],
   safelist: 'prose prose-sm m-auto text-left'.split(' '),
 })
