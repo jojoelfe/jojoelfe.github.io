@@ -4,7 +4,7 @@ import papers from '~/data/papers.json'
 </script>
 
 <template>
-  <div class="flex overflow-x-scroll snap-mandatory snap-x">
+  <div class="flex flex-wrap">
     <PaperCard v-for="(paper, index) in papers" :key="index" :paper="paper" />
   </div>
 </template>
