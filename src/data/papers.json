@@ -30,7 +30,8 @@
         "journal": "J Assoc Res Otolaryngol",
         "fulljournal": "Journal of the Association for Research in Otolaryngology : JARO",
         "pmid": "34617206",
-        "date": "2021 Dec"
+        "date": "2021 Dec",
+        "image": "/jaro2021.png"
     },
     {
         "title": "Molecular mechanism of prestin electromotive signal amplification.",
@@ -47,7 +48,8 @@
         "journal": "Cell",
         "fulljournal": "Cell",
         "pmid": "34390643",
-        "date": "2021 Sep 2"
+        "date": "2021 Sep 2",
+        "image": "/cell2021.jpg"
     },
     {
         "title": "HOTSPUR: A Real-time Interactive Preprocessing System for Cryo-EM Data.",
@@ -60,7 +62,8 @@
         "journal": "Microsc Microanal",
         "fulljournal": "Microscopy and microanalysis : the official journal of Microscopy Society of America, Microbeam Analysis Society, Microscopical Society of Canada",
         "pmid": "32038096",
-        "date": "2019 Aug"
+        "date": "2019 Aug",
+        "image": "/mm2019.jpg"
     },
     {
         "title": "Strategy for Compositional Analysis of the Hair Cell Mechanotransduction Complex Using TIRF Microscopy.",
