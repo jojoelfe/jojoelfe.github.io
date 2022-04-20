@@ -11,7 +11,6 @@ declare module '@vue/runtime-core' {
     Header: typeof import('./components/Header.vue')['default']
     PaperCard: typeof import('./components/PaperCard.vue')['default']
     PaperList: typeof import('./components/PaperList.vue')['default']
-    README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     VisCard: typeof import('./components/VisCard.vue')['default']
