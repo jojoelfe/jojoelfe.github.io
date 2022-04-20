@@ -5,6 +5,7 @@ specifiers:
   '@iconify-json/academicons': ^1.1.2
   '@iconify-json/carbon': ^1.1.3
   '@iconify-json/fontisto': ^1.1.1
+  '@iconify-json/gg': ^1.1.1
   '@intlify/vite-plugin-vue-i18n': ^4.0.0
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/nprogress': ^0.2.0
@@ -62,6 +63,7 @@ devDependencies:
   '@iconify-json/academicons': 1.1.2
   '@iconify-json/carbon': 1.1.3
   '@iconify-json/fontisto': 1.1.1
+  '@iconify-json/gg': 1.1.1
   '@intlify/vite-plugin-vue-i18n': 4.0.0_vite@2.9.5+vue-i18n@9.1.9
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
@@ -1421,6 +1423,12 @@ packages:
 
   /@iconify-json/fontisto/1.1.1:
     resolution: {integrity: sha512-Ppd6nVDQdWAO7JB2a5ZALYUAy9zjMg7uRAxIOvskzsD5KV47KOQZxh0ohKvzSUTFhtWIgNM+b+D3Rf4Ae1iH/w==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/gg/1.1.1:
+    resolution: {integrity: sha512-M0DqErX7GItsiaPt9Se1JvFD5XfcCqW94CL5310dy9JunkNhnKxziNGRSwXgIc13+3bR4vaMEQeeZ+SPWyYdWA==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true

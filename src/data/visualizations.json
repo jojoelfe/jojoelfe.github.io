@@ -1,0 +1,16 @@
+[
+    {
+        "title": "The Contrast Transfer Function",
+        "description": "A WebGL based interactive visualization of the contrast transfer function.",
+        "url": "http://jojoelfe.github.io/webgl-ctf/",
+        "image": "/ctf.png",
+        "github_url": "http://github.com/jojoelfe/webgl-ctf"
+    },
+    {
+        "title": "Grid calculator",
+        "description": "A simple tool to calculate how many protein complexes are nescessary to see them on a micrograph.",
+        "url": "http://jojoelfe.gitlab.io/grid-calculator/",
+        "image": "/gc.png",
+        "github_url": "https://gitlab.com/jojoelfe/grid-calculator"
+    }
+]

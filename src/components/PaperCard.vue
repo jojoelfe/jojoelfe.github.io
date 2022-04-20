@@ -18,6 +18,7 @@ div.min-h-36.border.rounded-xl.px-3.shadow-lg.min-w-30.w-36rem.max-w-36rem.overf
     span.font-bold {{props.paper.fulljournal}}
     span &nbsp;{{props.paper.date}}
   a.not-prose(:href="'https://pubmed.ncbi.nlm.nih.gov/'+props.paper.pmid" target="_blank")
-    <div class="inline-block" i-academicons:pubmed></div>
+    <div class="inline-block " i-academicons:pubmed></div>
+    span.text-xs.underline Pubmed
 
 </template>
