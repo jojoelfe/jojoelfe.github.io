@@ -17,12 +17,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="controls flex flex-row flex-gap-20px bg-white p-2 rounded-3xl ">
+  <div class="controls flex flex-row flex-gap-20px bg-white p-2 rounded-3xl shadow-xl border">
     <div>
-      <div class="label">
+      <div class="label m-auto text-center">
         Focus
       </div>
-      <input-knob :value="user.focus" scale="10" min="0" max="200" @knob-move-change="set_focus($event)">
+      <input-knob :value="user.focus" class="m-auto" scale="10" min="0" max="200" @knob-move-change="set_focus($event)">
         <div class="mark">
           ⬤
         </div>
