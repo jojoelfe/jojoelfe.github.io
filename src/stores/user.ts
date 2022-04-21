@@ -11,6 +11,7 @@ export const useUserStore = defineStore('user', () => {
   const otherNames = computed(() => usedNames.value.filter(name => name !== savedName.value))
 
   const focus = ref(100)
+  const mag = ref(100)
   /**
    * Changes the current name of the user and saves the one that was used
    * before.
@@ -29,6 +30,7 @@ export const useUserStore = defineStore('user', () => {
     otherNames,
     savedName,
     focus,
+    mag,
   }
 })
 

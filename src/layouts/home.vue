@@ -7,6 +7,11 @@ const blur = computed(() => {
   const blur: number = (user.focus / 20.0 - 5.0) ** 2
   return `blur(${blur}px)`
 })
+const mag = computed(() => {
+  const mag: number = 10 ** ((user.mag - 100) / 100)
+  console.log(`scale(${mag})`)
+  return `scale(${mag})`
+})
 </script>
 
 <template>
@@ -24,5 +29,6 @@ const blur = computed(() => {
   .blur {
     filter: v-bind(blur);
     -webkit-filter: v-bind(blur);
+    transform: v-bind(mag);
   }
 </style>

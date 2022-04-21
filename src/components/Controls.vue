@@ -3,8 +3,12 @@ import { useUserStore } from '~/stores/user'
 
 const user = useUserStore()
 
-function say(event: any) {
+function set_focus(event: any) {
   user.focus = event.target.value
+}
+
+function set_mag(event: any) {
+  user.mag = event.target.value
 }
 
 onMounted(() => {
@@ -13,15 +17,27 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="controls">
-    <div class="label">
-      Focus
-    </div>
-    <input-knob :value="user.focus" scale="10" min="0" max="200" @knob-move-change="say($event)">
-      <div class="mark">
-        ⬤
+  <div class="controls flex flex-row flex-gap-20px bg-white p-2 rounded-3xl ">
+    <div>
+      <div class="label">
+        Focus
       </div>
-    </input-knob>
+      <input-knob :value="user.focus" scale="10" min="0" max="200" @knob-move-change="set_focus($event)">
+        <div class="mark">
+          ⬤
+        </div>
+      </input-knob>
+    </div>
+    <div>
+      <div class="label">
+        Magnification
+      </div>
+      <input-knob :value="user.mag" class="m-auto" scale="10" min="0" max="200" @knob-move-change="set_mag($event)">
+        <div class="mark">
+          ⬤
+        </div>
+      </input-knob>
+    </div>
   </div>
 </template>
 
