@@ -1,10 +1,23 @@
 [
     {
         "title": "Imaging molecules in their native environment: Cryo-electron tomography of PCDH15 complexes in mouse stereocilia",
-        "occaseion": "Gatan webinar",
+        "occasion": "Gatan webinar",
         "year": "2022",
         "video_url": "https://www.youtube.com/watch?v=GYKCOhJSfCU&t=1s",
         "slides_url": "https://jojoelfe.github.io/pcdh15_tomo_talk",
         "code_url": "https://github.com/jojoelfe/pcdh15_tomo_talk"
+    },
+    {
+        "title": "High-throughput in-situ cryo-EM of hematopoietic differentiation",
+        "occasion": "SBGrid Consortium talk",
+        "year": "2021",
+        "video_url": "https://www.youtube.com/watch?v=ZiDlc-OqJ5E"
+    },
+    {
+        "title": "Using computational and experimental methods to understand protein function: Application to proprotein convertases and other disease-related proteins",
+        "occasion": "PhD defense",
+        "year": "2015",
+        "slides_url": "http://jojoelfe.github.io/thesis_defense/#/",
+        "code_url": "https://github.com/jojoelfe/thesis_defense"
     }
 ]
