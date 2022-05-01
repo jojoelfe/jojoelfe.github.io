@@ -14,6 +14,7 @@ specifiers:
   '@vue/test-utils': ^2.0.0-rc.20
   '@vueuse/core': ^8.2.6
   '@vueuse/head': ^0.7.6
+  bessel: ^1.0.2
   critters: ^0.0.16
   cross-env: ^7.0.3
   cypress: ^9.5.4
@@ -23,6 +24,7 @@ specifiers:
   input-knob: github:woutervroege/input-knob
   markdown-it-link-attributes: ^4.0.0
   markdown-it-prism: ^2.2.3
+  mathjs: ^10.5.0
   nprogress: ^0.2.0
   pinia: ^2.0.13
   pnpm: ^6.32.7
@@ -50,6 +52,7 @@ specifiers:
 dependencies:
   '@vueuse/core': 8.2.6_vue@3.2.33
   '@vueuse/head': 0.7.6_vue@3.2.33
+  bessel: 1.0.2
   nprogress: 0.2.0
   pinia: 2.0.13_typescript@4.6.3+vue@3.2.33
   prism-theme-vars: 0.2.2
@@ -79,6 +82,7 @@ devDependencies:
   input-knob: github.com/woutervroege/input-knob/224322fa54bad4cc9343b7cf6a12233d724a9098
   markdown-it-link-attributes: 4.0.0
   markdown-it-prism: 2.2.3
+  mathjs: 10.5.0
   pnpm: 6.32.7
   pug: 3.0.2
   typescript: 4.6.3
@@ -1304,8 +1308,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /@babel/runtime/7.17.7:
-    resolution: {integrity: sha512-L6rvG9GDxaLgFjg41K+5Yv9OMrU98sWe+Ykmc6FDJW/+vYZMhdOMKkISgzptMaERHvS2Y2lw9MDRm2gHhlQQoA==}
+  /@babel/runtime/7.17.9:
+    resolution: {integrity: sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
@@ -2597,6 +2601,11 @@ packages:
       tweetnacl: 0.14.5
     dev: true
 
+  /bessel/1.0.2:
+    resolution: {integrity: sha512-Al3nHGQGqDYqqinXhQzmwmcRToe/3WyBv4N8aZc5Pef8xw2neZlR9VPi84Sa23JtgWcucu18HxVZrnI0fn2etw==}
+    engines: {node: '>=0.8'}
+    dev: false
+
   /binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
@@ -2917,6 +2926,10 @@ packages:
   /common-tags/1.8.2:
     resolution: {integrity: sha512-gk/Z852D2Wtb//0I+kRFNKKE9dIIVirjoqPoA1wJU+XePVXZfGeBpk45+A1rKO4Q43prqWBNY/MiIeRLbPWUaA==}
     engines: {node: '>=4.0.0'}
+    dev: true
+
+  /complex.js/2.1.1:
+    resolution: {integrity: sha512-8njCHOTtFFLtegk6zQo0kkVX1rngygb/KQI6z1qZxlFI3scluC+LVTCFbrkWjBv4vvLlbQ9t88IPMC6k95VTTg==}
     dev: true
 
   /compressible/2.0.18:
@@ -3659,6 +3672,10 @@ packages:
     resolution: {integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=}
     dev: true
 
+  /escape-latex/1.2.0:
+    resolution: {integrity: sha512-nV5aVWW1K0wEiUIEdZ4erkGGH8mDxGyxSeqPzRNtWP7ataw+/olFObw7hujFWlVjNsaDFw5VZ5NzVSIqRgfTiw==}
+    dev: true
+
   /escape-string-regexp/1.0.5:
     resolution: {integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=}
     engines: {node: '>=0.8.0'}
@@ -4305,6 +4322,10 @@ packages:
   /forwarded/0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
+    dev: true
+
+  /fraction.js/4.2.0:
+    resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
 
   /fresh/0.5.2:
@@ -4988,6 +5009,10 @@ packages:
       minimatch: 3.1.2
     dev: true
 
+  /javascript-natural-sort/0.7.1:
+    resolution: {integrity: sha1-+eIwPUUH9tdDVac2ZNFED7Wg71k=}
+    dev: true
+
   /jest-worker/26.6.2:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
@@ -5366,6 +5391,22 @@ packages:
       linkify-it: 3.0.3
       mdurl: 1.0.1
       uc.micro: 1.0.6
+    dev: true
+
+  /mathjs/10.5.0:
+    resolution: {integrity: sha512-gRnSY9psN9zgiB2QV9F4XbuX5hwjxY5Ou7qoTFWDbn2vZ3UEs+sjfK/SRg2WP30TNfZWpwlGdp8H1knFJnpFdA==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dependencies:
+      '@babel/runtime': 7.17.9
+      complex.js: 2.1.1
+      decimal.js: 10.3.1
+      escape-latex: 1.2.0
+      fraction.js: 4.2.0
+      javascript-natural-sort: 0.7.1
+      seedrandom: 3.0.5
+      tiny-emitter: 2.1.0
+      typed-function: 2.1.0
     dev: true
 
   /mdast-util-from-markdown/0.8.5:
@@ -6167,7 +6208,7 @@ packages:
   /regenerator-transform/0.14.5:
     resolution: {integrity: sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==}
     dependencies:
-      '@babel/runtime': 7.17.7
+      '@babel/runtime': 7.17.9
     dev: true
 
   /regexp-tree/0.1.24:
@@ -6340,6 +6381,10 @@ packages:
     dependencies:
       extend-shallow: 2.0.1
       kind-of: 6.0.3
+    dev: true
+
+  /seedrandom/3.0.5:
+    resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
     dev: true
 
   /select-hose/2.0.0:
@@ -6736,6 +6781,10 @@ packages:
     resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
     dev: true
 
+  /tiny-emitter/2.1.0:
+    resolution: {integrity: sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==}
+    dev: true
+
   /tinypool/0.1.2:
     resolution: {integrity: sha512-fvtYGXoui2RpeMILfkvGIgOVkzJEGediv8UJt7TxdAOY8pnvUkFg/fkvqTfXG9Acc9S17Cnn1S4osDc2164guA==}
     engines: {node: '>=14.0.0'}
@@ -6896,6 +6945,11 @@ packages:
     dependencies:
       media-typer: 0.3.0
       mime-types: 2.1.35
+    dev: true
+
+  /typed-function/2.1.0:
+    resolution: {integrity: sha512-bctQIOqx2iVbWGDGPWwIm18QScpu2XRmkC19D8rQGFsjKSgteq/o1hTZvIG/wuDq8fanpBDrLkLq+aEN/6y5XQ==}
+    engines: {node: '>= 10'}
     dev: true
 
   /typescript/4.6.3:
@@ -7543,7 +7597,7 @@ packages:
       '@apideck/better-ajv-errors': 0.3.3_ajv@8.10.0
       '@babel/core': 7.17.7
       '@babel/preset-env': 7.16.11_@babel+core@7.17.7
-      '@babel/runtime': 7.17.7
+      '@babel/runtime': 7.17.9
       '@rollup/plugin-babel': 5.3.1_@babel+core@7.17.7+rollup@2.70.1
       '@rollup/plugin-node-resolve': 11.2.1_rollup@2.70.1
       '@rollup/plugin-replace': 2.4.2_rollup@2.70.1

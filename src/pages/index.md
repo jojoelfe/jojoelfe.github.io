@@ -17,10 +17,6 @@ If you want to talk about science, software, or anything inbetween you can conta
 
 <TalkList></TalkList>
 
-### Structures
-
-### Software
-
 ### Scientifc web visualizations
 
 <VisList></VisList>
