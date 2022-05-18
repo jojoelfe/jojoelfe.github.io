@@ -18,25 +18,6 @@ onMounted(() => {
   import('input-knob')
 })
 
-user.$subscribe((mutation, state) => {
-  console.log(format(user.psf, 2))
-  const a = divide(user.psf, max(user.psf))
-  // fill canvas test with psf
-  const canvas = document.getElementById('test') as HTMLCanvasElement
-  const ctx = canvas.getContext('2d')
-  ctx.fillStyle = '#000'
-  ctx.imageSmoothingEnabled = false
-  ctx.fillRect(0, 0, canvas.width, canvas.height)
-  for (let i = 0; i < 11 * 11; i++) {
-    const x = i % 11
-    const y = Math.floor(i / 11)
-    const value = a.get([x, y])
-    // blue for positive, red for negative
-    ctx.fillStyle = value > 0 ? `rgb(0,${value * 255.0},${value * 255.0})` : `rgb(${-value * 255.0},0,0)`
-    ctx.fillRect(x * 10, y * 10, 10, 10)
-  }
-})
-
 </script>
 
 <template>
@@ -60,9 +41,6 @@ user.$subscribe((mutation, state) => {
           ⬤
         </div>
       </input-knob>
-    </div>
-    <div>
-      <canvas id="test" width="110" height="110" class="w-100px h-100px" />
     </div>
   </div>
 </template>
