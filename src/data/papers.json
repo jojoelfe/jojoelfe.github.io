@@ -1,5 +1,21 @@
 [
     {
+        "title": "Defocus Corrected Large Area Cryo-EM (DeCo-LACE) for Label-Free Detection of Molecules across Entire Cell Sections",
+        "authors": [
+            "Elferich J",
+            "Shiroli G",
+            "Scadden D",
+            "Grigorieff N"
+        ],
+        "journal": "bioRxiv",
+        "fulljournal": "bioRxiv",
+        "biorxiv": "10.1101/2022.06.13.495969v1",
+        "date": "2022 Jun 14",
+        "image": "/biorxiv2022.jpg",
+        "code_url": "https://github.com/jojoelfe/deco_lace_template_matching_manuscript"
+
+    },
+    {
         "title": "Molecular structures and conformations of protocadherin-15 and its complexes on stereocilia elucidated by cryo-electron tomography.",
         "authors": [
             "Elferich J",

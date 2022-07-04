@@ -16,8 +16,15 @@ div.min-h-36.border.rounded-xl.px-3.shadow-lg.min-w-30.w-36rem.max-w-36rem.overf
   p.not-prose.leading-5.text-xs
     span.font-bold {{props.data.fulljournal}}
     span &nbsp;{{props.data.date}}
-  a.not-prose(:href="'https://pubmed.ncbi.nlm.nih.gov/'+props.data.pmid" target="_blank")
+  a.not-prose(:href="'https://pubmed.ncbi.nlm.nih.gov/'+props.data.pmid" v-if="props.data.pmid" target="_blank")
     <div class="inline-block " i-academicons:pubmed></div>
     span.text-xs.underline Pubmed
+  a.not-prose(:href="'https://www.biorxiv.org/content/'+props.data.biorxiv" v-if="props.data.biorxiv" target="_blank")
+    <div class="inline-block " i-academicons:biorxiv></div>
+    span.text-xs.underline bioRxiv
+  a.not-prose.ml-2(:href="props.data.code_url" v-if="props.data.code_url" target="_blank")
+    <div class="inline-block" i-carbon-logo-github></div>
+    span.text-xs.underline Code
+
 
 </template>
