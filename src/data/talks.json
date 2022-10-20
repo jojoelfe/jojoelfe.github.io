@@ -1,5 +1,12 @@
 [
     {
+        "title" : "Cryo-EM imaging of biomolecular complexes in their native environment: From the rare mechanosensory transduction complex to the abundant ribosome",
+        "occasion" : "Seminar at OHSU",
+        "year" : "2022",
+        "slides_url" : "https://jojoelfe.github.io/ohsu_seminar",
+        "code_url" : "https://github.com/jojoelfe/ohsu_seminar"
+    },
+    {
         "title": "Imaging molecules in their native environment: Cryo-electron tomography of PCDH15 complexes in mouse stereocilia",
         "occasion": "Gatan webinar",
         "year": "2022",
