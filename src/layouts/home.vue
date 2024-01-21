@@ -11,19 +11,18 @@ const astigmatism_angle = computed(() => {
 })
 
 const drop_shadow = computed(() => {
-  const astigx = (user.astigx-100.0) / 3.0
-  const astigy = (user.astigy-100.0) / 3.0
-  const drop_shadow: string = `drop-shadow(${astigx}px ${astigy}px 0px) drop-shadow(${-astigx}px ${-astigy}px 0px)`
+  const astigx = (user.astigx - 100.0) / 3.0
+  const astigy = (user.astigy - 100.0) / 3.0
+  const drop_shadow = `drop-shadow(${astigx}px ${astigy}px 0px) drop-shadow(${-astigx}px ${-astigy}px 0px)`
   return drop_shadow
 })
 
 const blur = computed(() => {
-  const blur: number = (user.focus / 20.0 - 5.0) ** 2 + Math.sqrt(((user.astigx-100.0) / 20.0) ** 2 + ((user.astigy-100.0) ** 2)/20.0)
+  const blur: number = (user.focus / 20.0 - 5.0) ** 2 + Math.sqrt(((user.astigx - 100.0) / 20.0) ** 2 + ((user.astigy - 100.0) ** 2) / 20.0)
   return `blur(${blur}px)`
 })
 const mag = computed(() => {
   const mag: number = 10 ** ((user.mag - 100) / 100)
-  console.log(`scale(${mag})`)
   return `scale(${mag})`
 })
 </script>
