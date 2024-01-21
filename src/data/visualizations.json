@@ -1,5 +1,12 @@
 [
     {
+        "title": "DeCo-LACE viewer",
+        "description": "An OpenSeadragon and Blender based visualization of DeCo-LACE montaged 2DTM data.",
+        "url": "https://jojoelfe.github.io/decolace_web_viewer/",
+        "image": "/decolace.png",
+        "github_url": "http://github.com/jojoelfe/decolace_web_viewer"
+    },
+    {
         "title": "The Contrast Transfer Function",
         "description": "A WebGL based interactive visualization of the contrast transfer function.",
         "url": "http://jojoelfe.github.io/webgl-ctf/",

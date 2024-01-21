@@ -12,6 +12,8 @@ export const useUserStore = defineStore('user', () => {
 
   const focus = ref(100)
   const mag = ref(100)
+  const astigx = ref(100)
+  const astigy = ref(100)
   /**
    * Changes the current name of the user and saves the one that was used
    * before.
@@ -31,6 +33,8 @@ export const useUserStore = defineStore('user', () => {
     savedName,
     focus,
     mag,
+    astigx,
+    astigy
   }
 })
 

@@ -7,10 +7,11 @@
             "Scadden D",
             "Grigorieff N"
         ],
-        "journal": "bioRxiv",
-        "fulljournal": "bioRxiv",
+        "journal": "Elife",
+        "fulljournal": "eLife",
+        "pmid": "36382886",
         "biorxiv": "10.1101/2022.06.13.495969v1",
-        "date": "2022 Jun 14",
+        "date": "2022 Nov 16",
         "image": "/biorxiv2022.jpg",
         "code_url": "https://github.com/jojoelfe/deco_lace_template_matching_manuscript"
 

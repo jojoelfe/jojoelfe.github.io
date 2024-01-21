@@ -11,6 +11,14 @@ function set_mag(event: any) {
   user.mag = event.target.value
 }
 
+function set_astigx(event: any) {
+  user.astigx = event.target.value
+}
+
+function set_astigy(event: any) {
+  user.astigy = event.target.value
+}
+
 onMounted(() => {
   import('input-knob')
 })
@@ -33,6 +41,26 @@ onMounted(() => {
         Magnification
       </div>
       <input-knob :value="user.mag" class="m-auto" scale="10" min="0" max="200" @knob-move-change="set_mag($event)">
+        <div class="mark">
+          ⬤
+        </div>
+      </input-knob>
+    </div>
+    <div>
+      <div class="label">
+        Astig X
+      </div>
+      <input-knob :value="user.astigx" class="m-auto" scale="10" min="0" max="200" @knob-move-change="set_astigx($event)">
+        <div class="mark">
+          ⬤
+        </div>
+      </input-knob>
+    </div>
+    <div>
+      <div class="label">
+        Astig Y
+      </div>
+      <input-knob :value="user.astigy" class="m-auto" scale="10" min="0" max="200" @knob-move-change="set_astigy($event)">
         <div class="mark">
           ⬤
         </div>

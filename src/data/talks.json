@@ -1,5 +1,12 @@
 [
     {
+        "title" : "Workflows for In-Situ Structural Biology Using DeCo-LACE and cisTEM",
+        "occasion" : "New England Cryo-EM meeting 2023 (Yale)",
+        "year" : "2023",
+        "slides_url" : "https://jojoelfe.github.io/necem2023",
+        "code_url" : "https://github.com/jojoelfe/necem2023"
+    },
+    {
         "title" : "Cryo-EM imaging of biomolecular complexes in their native environment: From the rare mechanosensory transduction complex to the abundant ribosome",
         "occasion" : "Seminar at OHSU",
         "year" : "2022",
