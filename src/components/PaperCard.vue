@@ -6,7 +6,8 @@ const props = defineProps({
 
 <template lang="pug">
 div.min-h-36.border.rounded-xl.px-3.shadow-lg.min-w-30.w-36rem.max-w-36rem.overflow-hidden.m-1.not-prose
-  img.w-36.ml--3.float-left.relative.bottom-0.mr-2(v-if="props.data.image" :src="props.data.image" alt="Paper image")
+  div.float-left.h-full.flex
+    img.w-36.ml--3.relative.bottom-0.mr-2(v-if="props.data.image" :src="props.data.image" alt="Paper image")
 
   p.font-bold.text-sm.leading-5.m-t-2.not-prose {{ props.data.title }}
   p.not-prose.leading-5.text-xs
@@ -25,6 +26,8 @@ div.min-h-36.border.rounded-xl.px-3.shadow-lg.min-w-30.w-36rem.max-w-36rem.overf
   a.not-prose.ml-2(:href="props.data.code_url" v-if="props.data.code_url" target="_blank")
     <div class="inline-block" i-carbon-logo-github></div>
     span.text-xs.underline Code
-
+  a.not-prose.ml-2(:href="props.data.code_url2" v-if="props.data.code_url2" target="_blank")
+    <div class="inline-block" i-carbon-logo-github></div>
+    span.text-xs.underline Code
 
 </template>

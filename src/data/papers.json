@@ -1,5 +1,37 @@
 [
     {
+        "title": "CTFFIND5 provides improved insight into quality, tilt and thickness of TEM samples",
+        "authors": [
+            "Elferich J",
+            "Kong L",
+            "Zottig X",
+            "Grigorieff N"
+        ],
+        "biorxiv": "10.1101/2024.02.26.582023",
+        "fulljournal": "bioRxiv",
+        "date": "2024 Feb 28",
+        "image": "/ctffind5.png",
+        "code_url": "https://github.com/GrigorieffLab/ctffind5_manuscript",
+        "code_url2": "https://github.com/timothygrant80/cisTEM/tree/ctffind5"
+    },
+    {
+        "title": "Single molecule studies of the native hair cell mechanosensory transduction complex",
+        "authors": [
+            "Clark S",
+            "Mitra J",
+            "Elferich J",
+            "Goehring A",
+            "Ge J",
+            "Ha T",
+            "Gouaux E"
+        ],
+        "biorxiv": "10.1101/2023.12.11.571162",
+        "fulljournal": "bioRxiv",
+        "date": "2023 Dec 12",
+        "image": "/simpull.png"
+
+    },
+    {
         "title": "Defocus Corrected Large Area Cryo-EM (DeCo-LACE) for Label-Free Detection of Molecules across Entire Cell Sections",
         "authors": [
             "Elferich J",
