@@ -1,5 +1,26 @@
 [
     {
+        "title": "Cryo-electron tomographic investigation of native hippocampal glutamatergic synapses",
+        "authors": [
+            "Matsui A",
+            "Spangler C",
+            "Elferich J",
+            "Shiozaki M",
+            "Jean N",
+            "Zhao X",
+            "Qin M",
+            "Zhong H",
+            "Yu ",
+            "Gouaux E"
+        ],
+        "journal": "Elife",
+        "fulljournal": "eLife",
+        "pmid": "39495821",
+        "biorxiv": "10.1101/2024.04.01.587595",
+        "date": "2024 Nov 4",
+        "image": "/syn.png"
+    },
+    {
         "title": "CTFFIND5 provides improved insight into quality, tilt and thickness of TEM samples",
         "authors": [
             "Elferich J",
