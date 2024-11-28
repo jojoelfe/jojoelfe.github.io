@@ -28,9 +28,9 @@ const mag = computed(() => {
 </script>
 
 <template>
-  <main class="px-4 py-10  text-gray-700 dark:text-gray-200">
+  <main class="px-4 py-10  text-gray-700 dark:text-gray-200 text-base">
     <Header />
-    <div class="blur m-auto max-w-xl w-100%">
+    <div class="blur m-auto max-w-prose w-100%">
       <RouterView />
     </div>
     <Controls />

@@ -1,4 +1,4 @@
-<img src="/me.jpg" class="w-48 m-auto rounded-full shadow-2xl"/>
+<img src="/me.jpg" class="w-72 m-auto rounded-full shadow-2xl"/>
 Hi,
 
 I'm Johannes, a scientist and open-source enthusiast situated in Boston, MA. Currently, I work as a research specialist in the Grigorieff Lab at UMass Chan Medical School/HHMI.

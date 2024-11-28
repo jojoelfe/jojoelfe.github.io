@@ -5,9 +5,9 @@ const props = defineProps({
 </script>
 
 <template lang="pug">
-div.min-h-36.border.rounded-xl.px-3.shadow-lg.min-w-30.w-36rem.max-w-36rem.overflow-hidden.m-1.not-prose
-  div.float-left.h-full.flex
-    img.w-36.ml--3.relative.bottom-0.mr-2(v-if="props.data.image" :src="props.data.image" alt="Paper image")
+div.min-h-36.border-2.rounded-xl.px-3.shadow-lg.min-w-30.w-full.max-w-prose.overflow-hidden.m-1.not-prose
+  div.float-left.h-full.flex.ml--3.overflow-hidden.w-36.mr-2
+    img.relative.bottom-0.left-0.object-cover(v-if="props.data.image" :src="props.data.image" alt="Paper image")
 
   p.font-bold.text-sm.leading-5.m-t-2.not-prose {{ props.data.title }}
   p.not-prose.leading-5.text-xs
