@@ -28,10 +28,14 @@ const mag = computed(() => {
 </script>
 
 <template>
-  <main class="px-4 py-10  text-gray-700 dark:text-gray-200 text-base">
+  <main class="px-4 py-10 text-gray-700 dark:text-gray-200 text-base bg-cover min-h-screen" style="background-image: url('/cover.png'); background-size: 100%; background-attachment: fixed;">
     <Header />
-    <div class="blur m-auto max-w-prose w-100%">
-      <RouterView />
+    <div class="m-auto max-w-prose w-full bg-white p-6 rounded-lg shadow-lg mag">
+      <div
+        class="blur"
+      >
+        <RouterView />
+      </div>div>
     </div>
     <Controls />
   </main>
@@ -42,6 +46,9 @@ const mag = computed(() => {
   .blur {
     filter: v-bind(drop_shadow) v-bind(blur);
     -webkit-filter:  v-bind(drop_shadow) v-bind(blur);
+  }
+  .mag {
     transform: v-bind(mag);
+    transform-origin: 50% 0;
   }
 </style>

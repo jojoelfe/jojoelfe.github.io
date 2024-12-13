@@ -13,6 +13,8 @@ declare module '@vue/runtime-core' {
     PaperList: typeof import('./components/PaperList.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SoftwareCard: typeof import('./components/SoftwareCard.vue')['default']
+    SoftwareList: typeof import('./components/SoftwareList.vue')['default']
     TalkCard: typeof import('./components/TalkCard.vue')['default']
     TalkList: typeof import('./components/TalkList.vue')['default']
     VisCard: typeof import('./components/VisCard.vue')['default']
