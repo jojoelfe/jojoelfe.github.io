@@ -1,5 +1,19 @@
 [
     {
+        "title" : "In-Situ High-Resolution Cryo-EM Reconstructions from CEMOVIS",
+        "occasion" : "11th CCP-EM Spring Symposium 2025 (Nottingham)",
+        "year" : "2025",
+        "slides_url" : "https://jojoelfe.github.io/ccpem2025",
+        "code_url" : "https://github.com/jojoelfe/ccpem2025"
+    },
+    {
+        "title" : "Structure Determination in Cell Slices using 2D Template Matching",
+        "occasion" : "75th ACA Annual Meeting 2025 (Chicago)",
+        "year" : "2025",
+        "slides_url" : "https://jojoelfe.github.io/aca2025",
+        "code_url" : "https://github.com/jojoelfe/aca2025"
+    },
+    {
         "title" : "Workflows for In-Situ Structural Biology Using DeCo-LACE and cisTEM",
         "occasion" : "New England Cryo-EM meeting 2023 (Yale)",
         "year" : "2023",
